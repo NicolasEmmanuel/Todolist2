@@ -20,7 +20,7 @@
                 //echo $rowAide["aide"];
                 ?>
 
-                <h3><?php echo $rowAide["nom"]; ?></h3>
+                <h3><?php echo $rowAide["id"]; ?></h3>
                 
                 <?php
 

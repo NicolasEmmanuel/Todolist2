@@ -13,6 +13,9 @@ if(isset($_GET["mod"])){
         case "aide":
             include($dir_fs."pages/aide.php");
         break;
+            case "actu": 
+            include($dir_fs."pages/actu.php");
+         break;
             default : 
             include($dir_fs."pages/acceuil.php");
                   
